@@ -1,0 +1,732 @@
+﻿{
+   "CodeGenerationMode": 0,
+   "ContextClassName": "DbmatteriaContext",
+   "ContextNamespace": null,
+   "DefaultDacpacSchema": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": false,
+   "ModelNamespace": null,
+   "OutputContextPath": "",
+   "OutputPath": "Entities",
+   "ProjectRootNamespace": "biz.matteria",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 0,
+   "SelectedToBeGenerated": 0,
+   "Tables": [
+      {
+         "Name": "[dbo].[auth_group]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[auth_group_permissions]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[auth_permission]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[auth_user]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[auth_user_groups]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[auth_user_user_permissions]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BackOffice_contact]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BackOffice_contactservices]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BackOffice_contactservices_services]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[candidates_candidate]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[candidates_candidate_answer_2]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[candidates_candidate_exp_areas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[candidates_candidate_exp_sectors]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[candidates_candidate_interests]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[candidates_candidate_professions]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[candidates_education]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[candidates_languages]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[candidates_volunteerexp]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[candidates_workandsocialexp]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[candidatesGradeProfession]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Catalog_OralLevel]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Catalog_writtenLevel]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[catalogs_adchannels]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Catalogs_AreaOpening]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[catalogs_career]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[catalogs_cause]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[catalogs_companyservice]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[catalogs_companytype]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[catalogs_country]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[catalogs_currency]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[catalogs_exparea]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[catalogs_expsector]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Catalogs_grade]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[catalogs_interest]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[catalogs_language]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[catalogs_mailcontent]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[catalogs_notificationtype]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[catalogs_occtimeinterval]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[catalogs_openingclass]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[catalogs_openingphase]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[catalogs_openingservice]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[catalogs_profession]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[catalogs_state]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Catalogs_Status]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Catalogs_TipoOrganizacion]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Catalogs_typeContract]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[companies_company]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[companies_company_services]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[companies_companyuser]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ComprasPaquetes]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ConfiguracionBusquedaVacantesPostulante]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ConfiguracionCrearCuentaPostulante]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ConfiguracionMiPerfilPostulante]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ConfiguracionMisVacantesOrganizacion]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ConfiguracionOrganizacion]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ConfiguracionPerfilOrganizacion]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ConfiguracionPostulante]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ConfiguracionPublicaVacantesOrganizacion]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ConfiguracionStepByStepOrganizacion]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[consultants_adminuser]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[consultants_consultant]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ContactoGeneralConfiguracion]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ContactsCompany]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ContactsContact]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ContactsGeneral]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ContactsMAI]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CrearCuentaOrganizacionConfiguracion]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Creditos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[django_content_type]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EstatusGenerales]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EstatusVacantes]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EstatusVacantesProceso]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FontContent_ContenidoRecursosBlog]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Footer]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FooterDetail]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FrontContent_ADN_Header]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FrontContent_answers]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FrontContent_Assessment]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FrontContent_beneficios_ADN]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FrontContent_comofunciona_assessment]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FrontContent_comofunciona_assessment_detail]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FrontContent_comofunciona_detail_onboarding]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FrontContent_enqueconsiste_ADN]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FrontContent_enqueconsiste_ADN_Header]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FrontContent_Objetivos_ADN]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FrontContent_Objetivos_ADN_Header]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FrontContent_PoliticasPrivacidad]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[frontContentConsultoriaOrganizacional]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FrontContentConsultoriaOrganizacionalDetalle]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FrontContentEstructuraSalarial]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FrontContentEstructuraSalarialDetalles]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FrontContentHeaderOrganizaciones]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FrontContentHomeGeneral]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FrontContentHomeHeaderPostulante]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FrontContentHomeImpactoPostulante]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FrontContentHomeOrganizacionPorQueMatteria]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FrontContentHomeOrgContenidoRecurso]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FrontContentManager_aliados]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FrontContentManager_aliadosHeader]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FrontContentManager_blog]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FrontContentManager_clientes]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FrontContentManager_comofunciona]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FrontContentManager_comofuncionaHeader_onboarding]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FrontContentManager_comofuncionaparacandidatosinfo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FrontContentManager_consulOnbiarding_header]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FrontContentManager_equipo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FrontContentManager_equipoHeader]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FrontContentManager_faq]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FrontContentManager_fastfacts]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FrontContentManager_logos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FrontContentManager_matteriainfo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FrontContentManager_nuestrosclientes]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FrontContentManager_nuestrosclientesinfo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FrontContentManager_nuestrosservicios]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FrontContentManager_nuestrosservicios_header]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FrontContentManager_ofertasdestacadas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FrontContentManager_organizacionesinfo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FrontContentManager_paracandidatosinfo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FrontContentManager_quehacemos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FrontContentManager_quehacemosorg]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FrontContentManager_registroorganizaciones]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FrontContentManager_registroprofesionales]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FrontContentManager_sliderhome]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FrontContentManager_somosdiferentes]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FrontContentManager_vacantescubiertas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FrontContentManager_valoresmatteriainfo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FrontContentManifiestoMatteria]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FrontContentManifiestoMatteria_razonser]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FrontContentOurADN]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FrontContentOurADNHead]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FrontContentPorqueMatteria]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FrontContentPorqueMatteriaDetalles]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FrontContentRecruitingComoEs]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FrontContentRecruitingComoEsHeader]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FrontContentRecruitingHeader]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FrontContentRecruitingPassive]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FrontContentRecruitingPassiveHeader]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FrontContentReruitingPorQueContratarnos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FrontContentTalleresHeader]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FrontContentTalleresObjetivos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FrontContentTalleresTemasDetail]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FrontContentTalleresTemasHead]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FrontContentVacantesComoFunciona]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FrontContentVacantesComoFuncionaHeader]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FrontContentVacantesComoPublicar]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FrontContentVacantesHeader]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FrontContentVacantesPaquetes]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[IngresoOrganizacionConfiguracion]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[LabelsPantalla]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[loginUsers]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MenuPrincipal]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MenuPrincipalDetalle]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MetodosPago]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MetodosPagosCountry]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[newsletterOrganization]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[newsletterOrganizationFrontConfiguration]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[newsletterPostulant]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[newsletterPostulantFrontConfiguration]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[notifications_notification]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[openings_opening]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[openings_opening_interests]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[openings_opening_professions]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[openings_openingcandidate]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Pagos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PagosPayPal]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PagosPeyu]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Pantallas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProgramaMAI]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProgramaMAIModelo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProgramaMAIObjectives]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Roles]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[stepByStepPostulant]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[stepByStepPostulantDetail]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[UsuariosRoles]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[VisitasVacantes]",
+         "ObjectType": 0
+      }
+   ],
+   "UiHint": "EC2AMAZ-UCFB368.DBMatteria",
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": false,
+   "UseDbContextSplitting": false,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseInflector": true,
+   "UseLegacyPluralizer": false,
+   "UseNoConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UseSchemaFolders": false,
+   "UseSpatial": false
+}

@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "biz.matteria", "biz.matteria\biz.matteria.csproj", "{DE35F058-5122-43FB-B55D-8E043DC4032A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dal.matteria", "dal.matteria\dal.matteria.csproj", "{C97B50DE-6A81-4D46-A393-D634AF165E6F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "admin.matteria", "admin.matteria\admin.matteria.csproj", "{7BE5B80C-78AD-4581-8ED8-D4C3DBC09349}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "api.matteria", "api.matteria\api.matteria.csproj", "{434E7D0B-0B31-4D45-A559-69872A825A94}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE35F058-5122-43FB-B55D-8E043DC4032A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE35F058-5122-43FB-B55D-8E043DC4032A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE35F058-5122-43FB-B55D-8E043DC4032A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE35F058-5122-43FB-B55D-8E043DC4032A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C97B50DE-6A81-4D46-A393-D634AF165E6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C97B50DE-6A81-4D46-A393-D634AF165E6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C97B50DE-6A81-4D46-A393-D634AF165E6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C97B50DE-6A81-4D46-A393-D634AF165E6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BE5B80C-78AD-4581-8ED8-D4C3DBC09349}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BE5B80C-78AD-4581-8ED8-D4C3DBC09349}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BE5B80C-78AD-4581-8ED8-D4C3DBC09349}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BE5B80C-78AD-4581-8ED8-D4C3DBC09349}.Release|Any CPU.Build.0 = Release|Any CPU
+		{434E7D0B-0B31-4D45-A559-69872A825A94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{434E7D0B-0B31-4D45-A559-69872A825A94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{434E7D0B-0B31-4D45-A559-69872A825A94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{434E7D0B-0B31-4D45-A559-69872A825A94}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F96D85B9-2106-43E0-BD6A-45B6DA63C0D1}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://minimalistdev.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = admin.matteria\\admin.matteria.csproj
+		SccProjectName1 = admin.matteria
+		SccLocalPath1 = admin.matteria
+		SccProjectUniqueName2 = api.matteria\\api.matteria.csproj
+		SccProjectName2 = api.matteria
+		SccLocalPath2 = api.matteria
+		SccProjectUniqueName3 = biz.matteria\\biz.matteria.csproj
+		SccProjectName3 = biz.matteria
+		SccLocalPath3 = biz.matteria
+		SccProjectUniqueName4 = dal.matteria\\dal.matteria.csproj
+		SccProjectName4 = dal.matteria
+		SccLocalPath4 = dal.matteria
+	EndGlobalSection
+EndGlobal

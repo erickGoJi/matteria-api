@@ -1,0 +1,156 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - matteria</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+
+
+
+    
+
+
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
+                    <div>
+                        <img src="~/images/matteria_logo.png" style="width:70px;" />
+                    </div>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Catalogos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Translations" asp-action="Index">Traducciones</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div>
+                    <i style="padding-left:11px;" class="fa fa-sign-out"></i><a href="~/User/LogOut">Salir</a>
+                </div>
+                    @*<div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                <ul class="navbar-nav flex-grow-1">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#" data-toggle="dropdown" class="nav-link text-dark dropdown-toggle">Catalogos</a>
+
+                        <ul class="dropdown-menu">
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="CatalogsAdchannels" asp-action="Index">Catalog Adchannel</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="CatalogsCareers" asp-action="Index">Catalog Career</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="CatalogsCauses" asp-action="Index">Catalog Cause</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="CatalogsCompanyservices" asp-action="Index">Catalog Company service</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="CatalogsCompanytypes" asp-action="Index">Catalog Company type</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="CatalogsCountries" asp-action="Index">Catalog Countrie</a>
+
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="CatalogsCurrencies" asp-action="Index">Catalog Currecy</a>
+
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="CatalogsExpareas" asp-action="Index">Catalog Expareas</a>
+
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="CatalogsExpsectors" asp-action="Index">Catalog Expsectors</a>
+
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="CatalogsInterests" asp-action="Index">Catalog Interests</a>
+
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="CatalogsLanguages" asp-action="Index">Catalog Languages</a>
+
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="CatalogsMailcontents" asp-action="Index">Catalog Mailcontents</a>
+
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="CatalogsNotificationtypes" asp-action="Index">Catalog Notification types</a>
+
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="CatalogsOcctimeintervals" asp-action="Index">Catalog Occtimeintervals</a>
+
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="CatalogsOpeningclasses" asp-action="Index">Catalog Openingclasses</a>
+
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="CatalogsOpeningphases" asp-action="Index">Catalog Openingphases</a>
+
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="CatalogsOpeningservices" asp-action="Index">Catalog Openingservices</a>
+
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="CatalogsProfessions" asp-action="Index">Catalog Professions</a>
+
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="CatalogsStates" asp-action="Index">Catalog States</a>
+
+                            </li>
+
+
+                        </ul>
+
+                    </li>
+                </ul>
+
+
+            </div>*@
+
+
+
+                </div>
+</nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
